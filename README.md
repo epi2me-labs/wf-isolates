@@ -1,9 +1,7 @@
-# Workflow template
+# wf-isolates
 
 This repository contains a [nextflow](https://www.nextflow.io/) workflow
-template that can be used as the basis for creating new workflows.
-
-> This workflow is not intended to be used by end users.
+template that can be used to process Oxford Nanopore isolate sequencing data.
 
 
 
@@ -11,10 +9,7 @@ template that can be used as the basis for creating new workflows.
 
 ## Introduction
 
-This section of documentation typically contains an overview of the workflow in terms of motivation
-and bioinformatics methods, listing any key tools or algorithms employed, whilst also describing its
-range of use-cases and what a suitable input dataset should look like.
-
+A proof of concept for workflow aliases.
 
 
 
@@ -39,7 +34,7 @@ For more information on running EPI2ME Labs workflows [visit out website](https:
 To obtain the workflow, having installed `nextflow`, users can run:
 
 ```
-nextflow run epi2me-labs/wf-template --help
+nextflow run epi2me-labs/wf-isolates --help
 ```
 
 to see the options for the workflow.
